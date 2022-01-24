@@ -76,9 +76,6 @@ header{
 }
 
 .pesquisa p{
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #979797;
@@ -176,16 +173,6 @@ header{
     right: 3px;
 }
 
-.esconderijo{
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    width: 55px;
-    height: 100px;
-    margin-right: -56px;
-    background-color: #FAFAFA;
-}
-
 /*--------------------------------------------
                    Posts
 --------------------------------------------*/
@@ -213,8 +200,6 @@ header{
 }
 
 .barra-superior p{
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -268,8 +253,6 @@ header{
 }
 
 .curtidas p{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;
@@ -278,7 +261,6 @@ header{
 }
 
 .curtidas strong{
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -448,7 +430,6 @@ header{
     }
 
     .conteudo{
-        z-index: -1;
         align-items: center;
         width: 100vw;
     }
@@ -465,11 +446,6 @@ header{
     .cx-icones{
         margin-right: 20px;
     }
-
-    .esconderijo{
-        width: calc(50vw - 482px);
-        background-color: black;
-    }
 }
 
 @media (max-width: 614px){
@@ -482,7 +458,6 @@ header{
     }
 
     .cx-icones{
-        position: relative;
         margin-bottom: 20px;
     }
     
@@ -522,7 +497,6 @@ header{
         align-items: center;
         height: 54px;
         width: 100vw;
-        /* padding: 0 20px 0 20px; */
         background-color: #FFFFFF;
         border-top: 1px solid #DBDBDB;
     }
